@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Recipeentry = () => {
     var [title,setTitle]=useState("")
@@ -25,6 +26,7 @@ const Recipeentry = () => {
     }
   return (
     <div>
+        <Navbar/>
 
 <div className="container">
     <div className="row">

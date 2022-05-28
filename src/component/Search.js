@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Search = () => {
     var [title,setTitle]=useState("")
@@ -8,6 +9,7 @@ const Search = () => {
     }
   return (
     <div>
+        <Navbar/>
 
 <div className="container">
     <div className="row">
