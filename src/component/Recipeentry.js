@@ -12,7 +12,7 @@ const Recipeentry = () => {
         const data={"title":title,"category":category,"description":description,"preparedby":preparedby}
         console.log(data)
 
-        axios.post("http://localhost:4000/api/recipeentry",data).then((Response)=>{
+        axios.post("http://localhost:5000/api/recipeentry",data).then((Response)=>{
             console.log(Response.data)
             if(Response.data.status=="success")
             {
